@@ -6,6 +6,7 @@ $extensionPath = \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath('cr
 return array(
 	'tx_crawler_api' => $extensionPath . 'class.tx_crawler_api.php',
 	'tx_crawler_auth' => $extensionPath . 'class.tx_crawler_auth.php',
+	'tx_crawler_contextmenu' => $extensionPath . 'class.tx_crawler_contextMenu.php',
 	'tx_crawler_lib' => $extensionPath . 'class.tx_crawler_lib.php',
 	'tx_crawler_tcafunc' => $extensionPath . 'class.tx_crawler_tcaFunc.php',
 	'tx_crawler_cli_flush' => $extensionPath . 'cli/class.tx_crawler_cli_flush.php',
@@ -27,6 +28,7 @@ return array(
 	'tx_crawler_hooks_processCleanUp' => $extensionPath . 'hooks/class.tx_crawler_hooks_processCleanUp.php',
 	'tx_crawler_modfunc1' => $extensionPath . 'modfunc1/class.tx_crawler_modfunc1.php',
 	'tx_crawler_scheduler_im' => $extensionPath . 'scheduler/class.tx_crawler_scheduler_im.php',
+	'tx_crawler_scheduler_processCleanup' => $extensionPath . 'scheduler/class.tx_crawler_scheduler_processCleanup.php',
 	'tx_crawler_scheduler_imadditionalfieldprovider' => $extensionPath . 'scheduler/class.tx_crawler_scheduler_imAdditionalFieldProvider.php',
 	'tx_crawler_scheduler_crawl' => $extensionPath . 'scheduler/class.tx_crawler_scheduler_crawl.php',
 	'tx_crawler_scheduler_crawladditionalfieldprovider' => $extensionPath . 'scheduler/class.tx_crawler_scheduler_crawlAdditionalFieldProvider.php',
